@@ -2295,3 +2295,38 @@ section {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
+.about-me {
+  padding: 50px 0;
+  background-color: #f4f4f4;
+}
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2em;
+}
+.social-icons a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #333;
+  transition: color 0.3s;
+}
+.social-icons a:hover {
+  color: #007bff;
+}
+.social-icons a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #333;
+  transition: color 0.3s;
+}
+.social-icons a:hover {
+  color: #007bff;
+}
+@media screen and (max-width:576px){
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2em;
+    margin: 2em;
+  }
+}
